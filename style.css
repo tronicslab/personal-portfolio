@@ -1,0 +1,56 @@
+/* CSS Resets */
+
+@import "normalize.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Styling */
+
+#navbar {
+	position: fixed;
+	width: 100%;
+}
+
+#navbar ul {
+	background-color: gray;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+}
+
+#navbar ul li {
+	margin-left:	20px;
+}
+
+#navbar ul li a {
+	  background-color: purple;
+    display: block;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#welcome-section {
+	background-color: pink;
+	min-height: 55vh;
+	padding-top: 45vh;
+	box-sizing: initial;
+}
+
+#projects {
+	background-color: blue;
+	height: 100%;
+}
+
+.project-tile {
+	background-color: yellow;
+}
+
+
